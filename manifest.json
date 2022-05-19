@@ -1,0 +1,11 @@
+{
+  "name": "Trial 1.0",
+  "id": "1109233632142531098",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "ui.html"
+}
