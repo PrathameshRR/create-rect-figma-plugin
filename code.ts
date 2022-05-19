@@ -56,7 +56,7 @@ if (figma.editorType === 'figma') {
         // You can set shapeType to one of: 'SQUARE' | 'ELLIPSE' | 'ROUNDED_RECTANGLE' | 'DIAMOND' | 'TRIANGLE_UP' | 'TRIANGLE_DOWN' | 'PARALLELOGRAM_RIGHT' | 'PARALLELOGRAM_LEFT'
         shape.shapeType = 'ROUNDED_RECTANGLE'
         shape.x = i * (shape.width + 200);
-        shape.fills = [{type: 'SOLID', color: {r: 1, g: 0.5, b: 0}}];
+        shape.fills = [{type: 'SOLID', color: {r: 5, g: 0.5, b: 0}}];
         figma.currentPage.appendChild(shape);
         nodes.push(shape);
       };
